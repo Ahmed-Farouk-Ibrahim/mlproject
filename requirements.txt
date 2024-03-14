@@ -1,0 +1,15 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+catboost
+xgboost
+Flask
+
+-e .
+# -e . : typically indicates a local editable install. This means that instead of installing the package from a remote source (like PyPI), it installs the package from the local directory.
+
+# In this context, -e stands for "editable", and . refers to the current directory where the setup.py file is located. It allows developers to make changes to the package code and see those changes reflected immediately without having to reinstall the package each time.
+
+# Including (-e .) in the requirements.txt file is common practice when working on a project to ensure that the local version of the package is used during development.
